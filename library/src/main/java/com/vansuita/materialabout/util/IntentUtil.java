@@ -175,22 +175,12 @@ public final class IntentUtil {
 
     @NonNull
     public Intent openPlayStoreAppPage(String app) {
-        Intent intent = intent(R.string.uri_play_store_app, app);
-        if (intent.resolveActivity(context.getPackageManager()) != null) {
-            return intent;
-        } else {
-            return intent(R.string.uri_play_store_app_website, app);
-        }
+        return intent(R.string.uri_play_store_app_website, app);
     }
 
     @NonNull
-    public Intent openPlayStoreAppsList(String app) {
-        Intent intent = intent(R.string.uri_play_store_apps_list, app);
-        if (intent.resolveActivity(context.getPackageManager()) != null) {
-            return intent;
-        } else {
-            return intent(R.string.uri_play_store_apps_list_website, app);
-        }
+    public Intent openPlayStoreAppsList(String username) {
+        return intent(R.string.uri_play_store_apps_list_website, username);
     }
 
     @NonNull

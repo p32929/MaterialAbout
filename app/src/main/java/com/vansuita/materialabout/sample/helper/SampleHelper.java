@@ -1,7 +1,6 @@
 package com.vansuita.materialabout.sample.helper;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.view.View;
 import android.widget.FrameLayout;
 
@@ -45,39 +44,31 @@ public class SampleHelper implements View.OnClickListener {
                 .setCover(R.mipmap.profile_cover)
                 .setLinksAnimated(true)
                 .setDividerDashGap(13)
-                .setName("Your Full Name")
-                .setSubTitle("Mobile Developer")
+                .setName("Fayaz Bin Salam")
+                .setSubTitle("Programmer and Developer")
                 .setLinksColumnsCount(4)
-                .setBrief("I'm warmed of mobile technologies. Ideas maker, curious and nature lover.")
-                .addGooglePlayStoreLink("8002078663318221363")
-                .addGitHubLink("jrvansuita")
-                .addBitbucketLink("jrvansuita")
-                .addFacebookLink("user")
-                .addTwitterLink("user")
-                .addInstagramLink("jnrvans")
-                .addGooglePlusLink("+JuniorVansuita")
-                .addYoutubeChannelLink("CaseyNeistat")
-                .addDribbbleLink("user")
-                .addLinkedInLink("arleu-cezar-vansuita-júnior-83769271")
-                .addEmailLink("vansuita.jr@gmail.com")
-                .addWhatsappLink("Jr", "+554799650629")
-                .addSkypeLink("user")
-                .addGoogleLink("user")
-                .addAndroidLink("user")
-                .addWebsiteLink("site")
+//                .addGooglePlayStoreLink(getPackageName().toString())
+                .addFacebookLink("p32929")
+                .addTwitterLink("p32929")
+                .addInstagramLink("p32929")
+                .addYoutubeChannelLink("UC4T4Qi_DDvLKz9o4VhUjz4Q")
+                .addEmailLink("p32929@gmail.com")
+                .addGitHubLink("p32929")
+                .addLinkedInLink("p32929")
                 .addFiveStarsAction()
-                .addMoreFromMeAction("Vansuita")
+                .addMoreFromMeAction("p32929")
                 .setVersionNameAsAppSubTitle()
-                .addShareAction(R.string.app_name)
+                .addShareAction("DeSplash", "Chek out this AMAZING wallpaper app!!!")
                 .addUpdateAction()
                 .setActionsColumnsCount(2)
-                .addFeedbackAction("vansuita.jr@gmail.com")
-                .addPrivacyPolicyAction("http://www.docracy.com/2d0kis6uc2")
-                .addIntroduceAction((Intent) null)
-                .addHelpAction((Intent) null)
-                .addChangeLogAction((Intent) null)
-                .addRemoveAdsAction((Intent) null)
-                .addDonateAction((Intent) null)
+                .addFeedbackAction("p32929@gmail.com", "App Feedback", "Please add \'this\' feature")
+                .addPrivacyPolicyAction("http://www.privacy.policy/link")
+//                .addHelpAction(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View view) {
+//                        howToUse();
+//                    }
+//                })
                 .setWrapScrollView(true)
                 .setShowAsCard(true);
 
