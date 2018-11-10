@@ -38,5 +38,6 @@
     <string name="uri_play_store_app">market://details?id=%s</string>
     <string name="uri_play_store_apps_list">market://search?q=pub:%s</string>
     <string name="uri_play_store_apps_list_website">https://play.google.com/store/apps/developer?id=%s</string>
+    <string name="uri_facebook_group">https://www.facebook.com/groups/%s</string>
 
 </resources>

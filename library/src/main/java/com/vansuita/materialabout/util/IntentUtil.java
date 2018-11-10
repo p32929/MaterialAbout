@@ -192,4 +192,9 @@ public final class IntentUtil {
         return intent;
     }
 
+    @NonNull
+    public Intent openFbGroup(String groupID) {
+        return intent(R.string.uri_facebook_group, groupID);
+    }
+
 }

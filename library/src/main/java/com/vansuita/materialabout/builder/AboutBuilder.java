@@ -1645,6 +1645,17 @@ public final class AboutBuilder {
     /**
      * Adds an action button to update the app using Google Play Store
      *
+     * @param fbGroupID the application id
+     * @return the same {@link AboutBuilder} instance
+     */
+    @NonNull
+    public AboutBuilder addJoinFbGroupAction(String fbGroupID) {
+        return addAction(R.mipmap.facebook, R.string.fbgroup, util.openFbGroup(fbGroupID));
+    }
+
+    /**
+     * Adds an action button to update the app using Google Play Store
+     *
      * @param appId the application id
      * @return the same {@link AboutBuilder} instance
      */
@@ -1661,6 +1672,17 @@ public final class AboutBuilder {
      */
     @NonNull
     public AboutBuilder addUpdateAction() {
+        return addUpdateAction(getApplicationID());
+    }
+
+    /**
+     * Adds an action button to update the app using Google Play Store
+     * This method use the default application id from the context
+     *
+     * @return the same {@link AboutBuilder} instance
+     */
+    @NonNull
+    public AboutBuilder addJoinFbGroupAction() {
         return addUpdateAction(getApplicationID());
     }
 
