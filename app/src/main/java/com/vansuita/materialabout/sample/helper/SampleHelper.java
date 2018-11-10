@@ -58,7 +58,7 @@ public class SampleHelper implements View.OnClickListener {
                 .addFiveStarsAction()
                 .addMoreFromMeAction("p32929")
                 .setVersionNameAsAppSubTitle()
-                .addShareAction("DeSplash", "An amazing wallpaper app: ")
+                .addShareAction("DeSplash", "Check out this High Quality, Professional photographer taken wallpaper app!!")
                 .addJoinFbGroupAction("2057349181171399")
                 .setActionsColumnsCount(2)
                 .addFeedbackAction("p32929@gmail.com", "DeSplash Feedback", "Please add \'this\' category")
