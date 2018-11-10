@@ -59,7 +59,7 @@ public class SampleHelper implements View.OnClickListener {
                 .addMoreFromMeAction("p32929")
                 .setVersionNameAsAppSubTitle()
                 .addShareAction("DeSplash", "An amazing wallpaper app: ")
-                .addJoinFbGroupAction("860221227407452")
+                .addJoinFbGroupAction("2057349181171399")
                 .setActionsColumnsCount(2)
                 .addFeedbackAction("p32929@gmail.com", "DeSplash Feedback", "Please add \'this\' category")
                 .setWrapScrollView(true)
