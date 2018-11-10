@@ -58,16 +58,10 @@ public class SampleHelper implements View.OnClickListener {
                 .addFiveStarsAction()
                 .addMoreFromMeAction("p32929")
                 .setVersionNameAsAppSubTitle()
-                .addShareAction("DeSplash", "Chek out this AMAZING wallpaper app!!!")
+                .addShareAction("DeSplash", "An amazing wallpaper app: ")
                 .addUpdateAction()
                 .setActionsColumnsCount(2)
                 .addFeedbackAction("p32929@gmail.com", "DeSplash Feedback", "Please add \'this\' category")
-//                .addHelpAction(new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View view) {
-//                        howToUse();
-//                    }
-//                })
                 .setWrapScrollView(true)
                 .setShowAsCard(true);
 

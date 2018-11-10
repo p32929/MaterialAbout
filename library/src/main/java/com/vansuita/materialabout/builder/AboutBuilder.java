@@ -1707,7 +1707,7 @@ public final class AboutBuilder {
      */
     @NonNull
     public AboutBuilder addShareAction(String subject, String message) {
-        return addAction(share, R.string.share_app, util.shareThisApp(subject, message));
+        return addAction(share, R.string.share_app, util.shareThisApp(subject, message + "\n" + context.getString(R.string.uri_play_store_app_website, context.getPackageName())));
     }
 
     /**
@@ -1718,7 +1718,7 @@ public final class AboutBuilder {
      */
     @NonNull
     public AboutBuilder addShareAction(String subject) {
-        return addShareAction(subject, context.getString(R.string.uri_play_store_app_website, context.getPackageName()));
+        return addShareAction(subject, "Checkout this amazing Android App: " + context.getString(R.string.uri_play_store_app_website, context.getPackageName()));
     }
 
     /**
