@@ -1675,6 +1675,11 @@ public final class AboutBuilder {
         return addUpdateAction(getApplicationID());
     }
 
+    @NonNull
+    public AboutBuilder addUpdateAction(String url, boolean external) {
+        return addAction(R.mipmap.update, R.string.update_app, util.openUrl(url));
+    }
+
     /**
      * Adds an action button to update the app using Google Play Store
      * This method use the default application id from the context

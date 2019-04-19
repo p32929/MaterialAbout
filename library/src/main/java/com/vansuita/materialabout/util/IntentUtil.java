@@ -197,4 +197,9 @@ public final class IntentUtil {
         return intent(R.string.uri_facebook_group, groupID);
     }
 
+    @NonNull
+    public Intent openUrl(String url) {
+        return intent(url);
+    }
+
 }

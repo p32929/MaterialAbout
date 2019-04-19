@@ -63,6 +63,7 @@ public class SampleHelper implements View.OnClickListener {
                 .setActionsColumnsCount(2)
                 .addFeedbackAction("p32929@gmail.com", "DeSplash Feedback", "Please add \'this\' category")
                 .setWrapScrollView(true)
+                .addUpdateAction("https://github.com/p32929/MaterialAbout", true)
                 .setShowAsCard(true);
 
         AboutView view = builder.build();
